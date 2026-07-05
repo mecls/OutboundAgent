@@ -1,0 +1,39 @@
+{
+  "name": "outbound-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "inngest": "npx inngest-cli@latest dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+    "clsx": "^2.1.1",
+    "inngest": "^3.27.4",
+    "jszip": "^3.10.1",
+    "lucide-react": "^1.14.0",
+    "nanoid": "^5.0.9",
+    "next": "16.2.6",
+    "openai": "^4.104.0",
+    "papaparse": "^5.4.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
